@@ -8,5 +8,5 @@ Below are links to my web development projects, including two from my work on Ja
 
 ## Other
 
-- [Willow](https://willow-resource.com): a website that consolidates resources for coping with loss during COVID-19. 
+- [Willow](https://galenwinsor.com/willow): a website that consolidates resources for coping with loss during COVID-19. 
 
