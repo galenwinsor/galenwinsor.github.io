@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Spline";
+    font-weight: 300;
+    src: url(../fonts/SplineSansMono-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Spline";
+    font-weight: 400;
+    src: url(../fonts/SplineSansMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Spline";
+    font-weight: 500;
+    src: url(../fonts/SplineSansMono-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Spline";
+    font-weight: 600;
+    src: url(../fonts/SplineSansMono-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Spline";
+    font-weight: 700;
+    src: url(../fonts/SplineSansMono-Bold.ttf) format("truetype");
+}
+
+html, body {
+    font-family: "Spline", sans-serif;
+}
+
+h1 {
+    font-size: 2.48832rem;
+    font-weight: 500;
+    letter-spacing: -0.05ch;
+}
+
+h2 {
+    font-size: 2.0736rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.0736rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: 600;
+}

@@ -1,16 +1,63 @@
 ---
-
+import NavBar from "../components/NavBar.astro";
+import "../styles/index.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Galen Winsor</title>
+  </head>
+  <body>
+    <div class="global-container">
+      <NavBar />
+      <h1 class="welcome-header">Hi, welcome!</h1>
+      <p>My name's Galen, and this is my (work in progress) personal site.</p>
+      <p>
+        I currently work as a <a href="https://ccv.brown.edu"
+          >Research Software Engineer</a
+        > at Brown University. I graduated from there in Fall 2023 after
+        completing a Bachelor of Arts in <strong>Computer Science</strong> and <strong
+          >Environmental Studies</strong
+        >.
+      </p>
+      <p>
+        I'm passionate about writing software that makes the world a better
+        place, spending time outdoors with loved ones, and playing music with
+        and for others.
+      </p>
+      <p>
+        As you can see, this site has a minimalist design; it's meant for
+        sharing what I'm doing and have done with as little distraction as
+        possible. I think most websites should be like this: informative,
+        accessible, and cleanly designed.
+      </p>
+      <p>
+        That said, I'll add links to past web projects to show off what I can do
+        😉.
+      </p>
+      <footer>Made by Galennn</footer>
+    </div>
+  </body>
 </html>
+
+<style>
+  .welcome-header {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-block: 1rem;
+  }
+
+  footer {
+    height: 12rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+</style>
