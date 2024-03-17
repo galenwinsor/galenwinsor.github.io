@@ -1,5 +1,12 @@
 # Galen's Web Projects
-Below are links to my web development projects, including two from my work on Jaime Harrison's Senate campaign. 
+
+Hi! I'm Galen and I'm currently a Research Software Engineer at Brown University's [Center for Computation and Visualization](https://ccv.brown.edu/) where I build web and mobile applications for researchers. This site is quite out of date, and I'm hard at work on a new and improved site with many more of my projects.
+
+For now, check out the following, very limited selection of my projects. With the exception of "How Do They Lobby", I built all these projects very early in my software engineering journey using only vanilla web technologies and `jQuery`, and I'm proud of what I was able to create with such limited tools. Nowadays, I build with TypeScript, Tailwind CSS, accessibility libraries like RadixUI, and fullstack frameworks like SvelteKit and NextJS. Stay tuned for examples!
+
+## Brown University Climate and Development Lab
+
+- [How Do They Lobby](https://howdotheylobby.org/): a website for visualizing and exploring the CDL's novel dataset of lobbying positions in states across the U.S. I built this site using SvelteKit, Tailwind CSS, and a Postgres database hosted through Supabase. The dataset underlying the site has over 14 million records, which made for a fun challenge in fetching data efficiently. I'm particularly proud of the fact that the entire UI, including the visualizations, is built from scratch using Tailwind, vanilla SVG, and a sprinkling of D3.js.
 
 ## Jaime Harrison for U.S. Senate
 
